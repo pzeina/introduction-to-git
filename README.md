@@ -187,13 +187,19 @@ Try pushing changes and watch Actions run 🚀
 ## 💡 Repo Structure Proposal
 
 ```
-git-for-professionals-edu/
+introduction-to-git/
 │── README.md
-│── docs/images/          # diagrams (branch, merge, rebase, staging)
-│── demos/
+│── docs/
+│   └── images/
+│       ├── branches.png
+│       ├── merge-vs-rebase.png
+│       ├── staging.png
+│       ├── conflicts.png
+│       └── git-flow.png│── demos/
 │   ├── merge-demo/       # small project for merge practice
 │   ├── rebase-demo/      # rebase exercises
 │   ├── conflict-demo/    # intentional conflict setup
 │── .github/workflows/ci.yml
+
 ```
 
